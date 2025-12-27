@@ -11,7 +11,7 @@
 
 本项目基于 [MACC](https://github.com/mxia9416/MACC) & [MBCCTools](https://github.com/quietlysnow/MBCCtools)项目开发
 
-仅用于**提交PR**及**学习**。
+仅用于**提交PR**及**学习**。   
 
 
 
