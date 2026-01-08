@@ -6,6 +6,7 @@
 # MBCCtools
 由 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 强力驱动！
 </div>
+当前版本v1.4.0
 
 ## 项目说明
 

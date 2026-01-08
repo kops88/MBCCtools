@@ -3,9 +3,9 @@
     "$__mpe_code": {
       "prefix": "",
       "savedViewport": {
-        "x": -791.186374966202,
-        "y": 494.97043801790574,
-        "zoom": 0.6040447398020352
+        "x": -1404.786365323982,
+        "y": -413.984205189588,
+        "zoom": 0.8815912614176649
       },
       "filename": "启动",
       "version": "v0.12.0"
@@ -89,7 +89,13 @@
     "recognition": {
       "type": "OCR",
       "param": {
-        "expected": "公告"
+        "expected": "公告",
+        "roi": [
+          234,
+          12,
+          876,
+          698
+        ]
       }
     },
     "action": {
@@ -562,7 +568,13 @@
     "recognition": {
       "type": "OCR",
       "param": {
-        "expected": "公告"
+        "expected": "公告",
+        "roi": [
+          234,
+          12,
+          876,
+          698
+        ]
       }
     },
     "action": {
@@ -579,8 +591,8 @@
     "post_delay": 1000,
     "$__mpe_code": {
       "position": {
-        "x": -137,
-        "y": -12
+        "x": -136,
+        "y": -51
       }
     }
   },
@@ -740,7 +752,7 @@
         ]
       }
     },
-    "post_wait_freezes": 1000,
+    "post_wait_freezes": 20000,
     "$__mpe_code": {
       "position": {
         "x": 3139,
@@ -928,7 +940,10 @@
         "x": 4165,
         "y": 656
       }
-    }
+    },
+    "next": [
+      "密盟"
+    ]
   },
   "PostLogin_Handler_Exception": {
     "recognition": {
@@ -1100,5 +1115,13 @@
     "next": [
       "情绪检测_Exception"
     ]
+  },
+  "$__mpe_external_密盟_启动": {
+    "$__mpe_code": {
+      "position": {
+        "x": 4515,
+        "y": 730
+      }
+    }
   }
 }
