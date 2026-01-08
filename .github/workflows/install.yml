@@ -19,9 +19,6 @@ on:
       - "**.py"
   workflow_dispatch:
 
-env:
-  MFAA_For_MBCCtools_VERSION: "v1.1.2"
-
 jobs:
   meta:
     runs-on: ubuntu-latest
@@ -82,7 +79,7 @@ jobs:
         with:
           repository: kops88/MFAA-For-MBCC
           fileName: "MFAA_For_MBCCtools-*-${{ (matrix.os == 'win' && 'win') || (matrix.os == 'macos' && 'macos') }}-${{ (matrix.arch == 'x86_64' && 'x64') || (matrix.arch == 'aarch64' && 'arm64') }}*"
-          tag: ${{ env.MFAA_For_MBCCtools_VERSION }}
+          latest:true
           out-file-path: "MFA"
           extract: true
 
